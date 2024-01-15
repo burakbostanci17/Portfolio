@@ -8,14 +8,14 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className='logo'>ordibu</a>
-          {/* <div className="itemContanier">
+          <div className="itemContanier">
             <PersonIcon className='icon' />
             <span>+90 539 600 05 32</span>
           </div>
           <div className="itemContanier">
             <MailIcon className='icon' />
             <span>burak.bostanci17@gmail.com</span>
-          </div> */}
+          </div>
         </div>
         <div className="right">
           <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>

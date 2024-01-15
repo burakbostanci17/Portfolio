@@ -1,3 +1,100 @@
-.projects{
-    background-color: lightgreen;
+.projects {
+    background-color: rgb(250, 115, 66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .arrow {
+        font-size: 40px;
+        position: absolute;
+        color: white;
+        cursor: pointer;
+
+        &.left {
+            left: 100px;
+        }
+
+        &.right {
+            right: 100px;
+        }
+    }
+
+    .slider {
+        height: 350px;
+        display: flex;
+        position: absolute;
+        left: 0;
+
+        .container {
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .item {
+                width: 700px;
+                height: 100%;
+                background-color: white;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .left {
+                    flex: 4;
+                    height: 80%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .leftContainer {
+                        width: 90%;
+                        height: 90%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        .imgContainer {
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50px;
+                            background-color: rgb(177, 219, 233);
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+
+                            .icon {
+                                width: 40px;
+                            }
+                        }
+
+                        h2 {
+                            font-size: 20px
+                        }
+
+                        p {
+                            font-size: 13px;
+                        }
+                    }
+                }
+
+                .right {
+                    flex: 8;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img {
+                        width: 500px;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+
 }
