@@ -7,6 +7,7 @@ import { useState } from "react"
 import Menu from "./components/menu/Menu"
 import About from './components/about/About'
 
+
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
@@ -18,7 +19,7 @@ function App() {
         <About/>
         <Projects />
         <Contact />
-      </div>
+       </div>
     </div>
   )
 }

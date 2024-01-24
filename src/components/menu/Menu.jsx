@@ -1,4 +1,6 @@
 import './menu.scss'
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function Menu({ menuOpen, setMenuOpen }) {
     return (
@@ -18,6 +20,10 @@ export default function Menu({ menuOpen, setMenuOpen }) {
                         <a href="#contact">Contact</a>
                     </li>
                 </ul>
+                <div className="iconBar">
+                    <a href="#" ><InstagramIcon /></a>
+                    <a href="#" > <LinkedInIcon /></a>
+                </div>
             </div>
         </div>
     )

@@ -1,5 +1,5 @@
 .projects {
-    background-color: rgb(250, 115, 66);
+    background-color: crimson;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,6 +25,7 @@
         display: flex;
         position: absolute;
         left: 0;
+        transition: all 1s ease-out;
 
         .container {
             width: 100vw;
@@ -47,13 +48,16 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    overflow: hidden;
 
                     .leftContainer {
                         width: 90%;
-                        height: 90%;
+                        height: 100%;
                         display: flex;
                         flex-direction: column;
-                        justify-content: space-between;
+                        justify-content: center;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
 
                         .imgContainer {
                             width: 40px;
@@ -63,6 +67,7 @@
                             display: flex;
                             align-items: center;
                             justify-content: center;
+                            margin-bottom: 20px;
 
 
                             .icon {
@@ -71,11 +76,19 @@
                         }
 
                         h2 {
-                            font-size: 20px
+                            font-size: 20px;
+                            margin-bottom: 20px;
                         }
 
                         p {
                             font-size: 13px;
+                            margin-bottom: 20px;
+                        }
+                        span{
+                            font-size: 12px;
+                            font-weight: 600;
+                            text-decoration: underline;
+                            cursor: pointer;
                         }
                     }
                 }
