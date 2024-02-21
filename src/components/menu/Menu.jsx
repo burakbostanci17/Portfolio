@@ -21,8 +21,8 @@ export default function Menu({ menuOpen, setMenuOpen }) {
                     </li>
                 </ul>
                 <div className="iconBar">
-                    <a href="#" ><InstagramIcon /></a>
-                    <a href="#" > <LinkedInIcon /></a>
+                    <a href="https://www.instagram.com/ordibuturkiye/" ><InstagramIcon /></a>
+                    <a href="https://www.linkedin.com/in/burakbostanci/" > <LinkedInIcon /></a>
                 </div>
             </div>
         </div>
